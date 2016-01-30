@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: f7beb886e5b87d346847a13f62e43ba9
 timeCreated: 1454128775
 licenseType: Free
@@ -16,6 +17,13 @@ TextureImporter:
     21300018: walk_animation__SPRITES ALL_9
     21300020: walk_animation__SPRITES ALL_10
     21300022: walk_animation__SPRITES ALL_11
+=======
+guid: f091e3da55b61ae42b3f97a706a21e1d
+timeCreated: 1454146003
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName: {}
+>>>>>>> 47293ae10c945d92d66de46d59f19d7231e71128
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -42,7 +50,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
+<<<<<<< HEAD
     aniso: 16
+=======
+    aniso: -1
+>>>>>>> 47293ae10c945d92d66de46d59f19d7231e71128
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -50,7 +62,11 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
+<<<<<<< HEAD
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> 47293ae10c945d92d66de46d59f19d7231e71128
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -61,6 +77,7 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+<<<<<<< HEAD
     sprites:
     - name: walk_animation__SPRITES ALL_0
       rect:
@@ -334,6 +351,9 @@ TextureImporter:
         - {x: 95, y: -33.5}
         - {x: 95, y: 30.5}
         - {x: 76, y: 64.5}
+=======
+    sprites: []
+>>>>>>> 47293ae10c945d92d66de46d59f19d7231e71128
     outline: []
   spritePackingTag: 
   userData: 
