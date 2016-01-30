@@ -1,8 +1,0 @@
-sceneSetups:
-<<<<<<< HEAD
-- path: Assets/house.unity
-=======
-- path: Assets/Work.unity
->>>>>>> 47293ae10c945d92d66de46d59f19d7231e71128
-  isLoaded: 1
-  isActive: 1
