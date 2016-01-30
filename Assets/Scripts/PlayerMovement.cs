@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 
-    public float    speed;
+    public float    speed = 2.0f;
     public Animator anim_control;
 
 	// Use this for initialization
@@ -12,14 +12,19 @@ public class PlayerMovement : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-    void Update () {
-        Vector2 axis = new Vector2();
-        axis.x = Input.GetAxis("Horizontal");
-        axis.y = Input.GetAxis("Vertical");
-        if (Mathf.Abs(axis.x) >= 0.01F || Mathf.Abs(axis.y) >= 0.01F)
-            anim_control.SetBool("walk", true);
-        else
-            anim_control.SetBool("walk", false);
-        transform.Translate(axis * Time.deltaTime * speed);
+    void Update () 
+	{
+		float xPos = Input.GetAxis ("Horizontal") * Time.deltaTime * speed;
+		float yPos = Input.GetAxis ("Vertical") * Time.deltaTime * speed;
+		Vector3 position = transform.position;
+		position.x += xPos;
+		position.y += yPos; 
+		transform.position = position;
+
+		if (xPos != 0 || yPos != 0) {
+			float heading = Mathf.Atan2 (yPos, xPos); 
+			transform.rotation = Quaternion.Euler (0f, 0f, heading * Mathf.Rad2Deg);
+		}
+
     }
 }
