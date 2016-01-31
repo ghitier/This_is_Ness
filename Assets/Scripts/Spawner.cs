@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Spawner : MonoBehaviour {
 
+    public static int change_map = 0;
     public GameObject box;
     float timeLeft = 30.0f;
 
@@ -15,7 +17,7 @@ public class Spawner : MonoBehaviour {
         timeLeft -= Time.deltaTime;
         if (timeLeft < 0)
         {
-            Application.LoadLevel("house");
+            SceneManager.LoadScene("house");
         }
     }
 
