@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class QuitGame : MonoBehaviour {
-    void OnMouseDown() {
+    public void ExitGame() {
         Application.Quit();
     }
 }
