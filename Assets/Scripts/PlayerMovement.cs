@@ -14,7 +14,11 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
     void Update () 
 	{
-		float xPos = Input.GetAxis ("Horizontal") * Time.deltaTime * speed;
+        if (Mathf.Abs(Input.GetAxis("Horizontal")) >= 0.05 || Mathf.Abs(Input.GetAxis("Vertical")) >= 0.05)
+            anim_control.SetBool("walk", true);
+        else
+            anim_control.SetBool("walk", false);
+        float xPos = Input.GetAxis ("Horizontal") * Time.deltaTime * speed;
 		float yPos = Input.GetAxis ("Vertical") * Time.deltaTime * speed;
 		Vector3 position = transform.position;
 		position.x += xPos;
