@@ -14,24 +14,20 @@ Platform assembly: C:\Users\jay_w\Documents\This_is_Ness\test_Data\Managed\Unity
 Loading C:\Users\jay_w\Documents\This_is_Ness\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\jay_w\Documents\This_is_Ness\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\jay_w\Documents\This_is_Ness\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.041 seconds
+- Completed reload, in  0.042 seconds
 Platform assembly: C:\Users\jay_w\Documents\This_is_Ness\test_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\jay_w\Documents\This_is_Ness\test_Data\Managed\System.dll (this message is harmless)
+Script error: OnTriggerStay2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoScriptCache.cpp Line: 241)
+
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.581861 ms
-Scene 'house' (-1) couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
-To add a scene to the build settings use the menu File->Build Settings...
- 
-(Filename:  Line: 513)
-
-Scene 'house' (-1) couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
-To add a scene to the build settings use the menu File->Build Settings...
- 
-(Filename:  Line: 513)
-
+UnloadTime: 0.461858 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1a5c -> priority: 1 
+  Thread -> id: 193c -> priority: 1 
